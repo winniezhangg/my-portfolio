@@ -19,7 +19,7 @@ export default function Projects() {
         <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
           {/* Project Card 1 - Credit Card Fraud Detection */}
-          <a href="https://winniezhangg.github.io/ML-credit-card-fraud-detection/">
+          <a href="https://winniezhangg.github.io/ML-credit-card-fraud-detection/" target="_blank">
             <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-pink-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
@@ -49,7 +49,7 @@ export default function Projects() {
           </a>
 
           {/* Project Card 2 - GT Scheduler */}
-          <a href="https://winniezhangdesigns.webflow.io/projects/gt-scheduler">
+          <a href="https://winniezhangdesigns.webflow.io/projects/gt-scheduler" target="_blank">
             <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-pink-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
@@ -76,7 +76,7 @@ export default function Projects() {
           </a>
 
           {/* Project Card 3 - Angels Among Us */}
-          <a href="https://winniezhangdesigns.webflow.io/projects/angels-among-us">
+          <a href="https://winniezhangdesigns.webflow.io/projects/angels-among-us" target="_blank">
             <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-pink-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
@@ -103,7 +103,7 @@ export default function Projects() {
           </a>
 
           {/* Project Card 4 - Tech Dining */}
-          <a href="https://winniezhangdesigns.webflow.io/projects/techeats-dining">
+          <a href="https://winniezhangdesigns.webflow.io/projects/techeats-dining" target="_blank">
             <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-pink-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
               <div className="space-y-4">
                 <div className="flex items-center justify-between">

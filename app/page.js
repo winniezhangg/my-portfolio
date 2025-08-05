@@ -34,7 +34,7 @@ export default function Home() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Project Card 1 */}
-            <a href="https://winniezhangg.github.io/ML-credit-card-fraud-detection/">
+            <Link href="https://winniezhangg.github.io/ML-credit-card-fraud-detection/" target="_blank">
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-pink-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
                 <div className="space-y-4">
                   <div className="flex items-center justify-between">
@@ -62,9 +62,9 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            </a>
+            </Link>
             {/* Project Card 2 */}
-            <a href="https://winniezhangdesigns.webflow.io/projects/angels-among-us">
+            <Link href="https://winniezhangdesigns.webflow.io/projects/angels-among-us" target="_blank">
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-pink-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
                 <div className="space-y-4">
                   <div className="flex items-center justify-between">
@@ -88,9 +88,9 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            </a>
+            </Link>
             {/* Project Card 3 - Placeholder */}
-            <a href="https://winniezhangdesigns.webflow.io/projects/gt-scheduler">
+            <Link href="https://winniezhangdesigns.webflow.io/projects/gt-scheduler" target="_blank">
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-pink-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
                 <div className="space-y-4">
                   <div className="flex items-center justify-between">
@@ -114,7 +114,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
           {/* View All Projects Button */}
           <div className="text-center mt-12">
