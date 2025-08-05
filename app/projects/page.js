@@ -19,7 +19,7 @@ export default function Projects() {
         <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
           {/* Project Card 1 - Credit Card Fraud Detection */}
-          <a href="https://winniezhangg.github.io/ML-credit-card-fraud-detection/" target="_blank">
+          <Link href="https://winniezhangg.github.io/ML-credit-card-fraud-detection/" target="_blank">
             <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-pink-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
@@ -46,10 +46,10 @@ export default function Projects() {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
 
           {/* Project Card 2 - GT Scheduler */}
-          <a href="https://winniezhangdesigns.webflow.io/projects/gt-scheduler" target="_blank">
+          <Link href="https://winniezhangdesigns.webflow.io/projects/gt-scheduler" target="_blank">
             <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-pink-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
@@ -73,10 +73,10 @@ export default function Projects() {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
 
           {/* Project Card 3 - Angels Among Us */}
-          <a href="https://winniezhangdesigns.webflow.io/projects/angels-among-us" target="_blank">
+          <Link href="https://winniezhangdesigns.webflow.io/projects/angels-among-us" target="_blank">
             <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-pink-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
@@ -100,10 +100,10 @@ export default function Projects() {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
 
           {/* Project Card 4 - Tech Dining */}
-          <a href="https://winniezhangdesigns.webflow.io/projects/techeats-dining" target="_blank">
+          <Link href="https://winniezhangdesigns.webflow.io/projects/techeats-dining" target="_blank">
             <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-pink-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
@@ -127,13 +127,13 @@ export default function Projects() {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
 
         </section>
 
         {/* Back to Home */}
         <section className="text-center mt-20">
-          <a
+          <Link
             href="/"
             className="inline-flex items-center px-8 py-3 border border-pink-600 text-pink-600 hover:bg-pink-50 font-medium rounded-full transition-colors duration-200"
           >
@@ -141,7 +141,7 @@ export default function Projects() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
             Back to Home
-          </a>
+          </Link>
         </section>
 
       </div>
