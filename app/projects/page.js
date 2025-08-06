@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Projects() {
   return (
-    <main className="min-h-screen bg-gradient-to-br from-pink-50 to-rose-50">
+    <main className="min-h-screen bg-gradient-to-br from-pink-50 to-rose-50 pt-15 md:pt-10 lg:pt-0">
       <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 py-16 sm:py-20 lg:py-24">
         
         {/* Page Header */}
